@@ -1,4 +1,5 @@
 from django.db import models
+from django.views.generic.list import ListView
 
 # Create your models here.
 
@@ -18,3 +19,4 @@ class Impression(models.Model):
 
     def __str__(self):
         return self.comment
+
